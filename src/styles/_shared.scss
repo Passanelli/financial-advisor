@@ -1,7 +1,19 @@
 $contentWidth: 100%;
 
-$textColor: #333333;
-$backgroundColor: #ffffff;
+$darkColor: #333333;
+$textWhite: #ffffff;
+$redColor: rgb(223, 5, 5);
+$greenColor: rgb(2, 179, 46);
+$blueColor: rgb(2, 133, 220);
+
+$lightGray: #e1e1e1;
+$white: #ffffff;
+$headerBackground: #0b98c4;
+
+$buttonPrimaryBackground: rgb(0, 180, 245); 
+$buttonPrimaryBorder: rgb(4, 105, 141);
+$buttonPrimaryHover: rgb(9, 145, 194);
+$levelButtonHover: rgb(0, 191, 92);
 
 @mixin border-radius($top, $right, $bottom, $left) {
     -webkit-border-radius: $top $right $bottom $left;

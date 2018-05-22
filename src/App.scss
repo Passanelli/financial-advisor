@@ -7,7 +7,7 @@ body {
 }
 
 .App {
-  color: $textColor;
+  color: $darkColor;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,18 +25,18 @@ body {
   text-decoration: none;
 
   &.active, &:visited, &:hover {
-    background: rgb(0, 191, 92);
-    color: #fff;
+    background: $levelButtonHover;
+    color: $white;
   }
 
   &.primary {
-    background: rgb(0, 180, 245);
+    background: $buttonPrimaryBackground;
     color: #fff;
-    border-color: rgb(4, 105, 141);
+    border-color: $buttonPrimaryBorder;
     text-shadow: 1px 1px 1px black;
 
     &:hover, &:active {
-      background: rgb(9, 145, 194);
+      background: $buttonPrimaryHover;
     }
   }
   &:disabled {
@@ -59,8 +59,8 @@ table {
   width: 100%;
 
   thead {
-    background: #333;
-    color: #FFF;
+    background: $darkColor;
+    color: $white;
     tr {
       padding: 10px;
 
