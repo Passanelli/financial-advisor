@@ -3,6 +3,17 @@
 .risk-preference-container {
     align-items: center;
     transition: all .5s ease-in-out;
+
+    .page-header {
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+
+        h3, .back-button {
+            flex-grow: 1;
+        }
+
+    }
 }
 
 .risk-level-container {

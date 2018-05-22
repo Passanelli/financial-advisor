@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
 import './portfolio.css';
+import { Link } from 'react-router-dom';
 import CurrentPortfolio from './currentPortfolio';
 
 class RecommendedPortfolio extends Component {
@@ -18,7 +19,10 @@ class RecommendedPortfolio extends Component {
 
         return (
             <div className='flex column risk-preference-container'>
-                <h3>Recommended Portfolio</h3>
+                <div className='flex page-header'>
+                    <Link to='/' className='back-button'>Back</Link><h3>Recommended Portfolio</h3>
+                </div>
+                
                 
                 <span>Risk level { selectedLevel }</span>
                 <table>

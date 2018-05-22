@@ -11,7 +11,7 @@ const initialState = {
   function reducer(state = initialState, action) {
     switch (action.type) {
       case SELECT_RISK_LEVEL:
-        return Object.assign({}, state, action)
+        return { ...state, selectedLevel: action.selectedLevel } 
       default:
         return state
     }
