@@ -1,0 +1,79 @@
+@import 'styles/_shared';
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.App {
+  color: $textColor;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  height: 100vh;
+  width: 100vw;
+}
+
+.btn, .btn:focus {
+  border: 2px solid black;
+  @include border-radius(3px, 3px, 3px, 3px);
+  padding: 8px 13px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+
+  &.active, &:visited, &:hover {
+    background: rgb(0, 191, 92);
+    color: #fff;
+  }
+
+  &.primary {
+    background: rgb(0, 180, 245);
+    color: #fff;
+    border-color: rgb(4, 105, 141);
+    text-shadow: 1px 1px 1px black;
+
+    &:hover, &:active {
+      background: rgb(9, 145, 194);
+    }
+  }
+  &:disabled {
+    opacity: .6;
+    cursor: default;
+  }
+}
+
+.flex {
+  display: flex;
+
+  &.column {
+    flex-direction: column;
+  }
+}
+
+table {
+  border-collapse: collapse;
+  margin: 10px 0; 
+  width: 100%;
+
+  thead {
+    background: #333;
+    color: #FFF;
+    tr {
+      padding: 10px;
+
+    }
+  }
+}
+table, th, td {
+  border: 1px solid black;
+  padding: 5px;
+
+  input:disabled {
+    border: 0;
+    outline: 0;
+
+  }
+}

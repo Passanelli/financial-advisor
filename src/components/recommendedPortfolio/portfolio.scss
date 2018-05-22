@@ -1,0 +1,29 @@
+@import 'styles/_shared';
+
+.rebalance-container {
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.recommended-transfers {
+  @include border-radius(3px, 3px, 3px, 3px);
+  border: 1px solid #333;
+  background: #e1e1e1;
+  font-size: 14px;
+  padding: 10px 10px 10px 30px;
+  margin: 10px 0 0;
+}
+
+input {
+    &.positive-value {
+        color: rgb(2, 179, 46);
+    }
+    &.negative-value {
+        color: rgb(223, 5, 5);
+    }
+    &.amount-result {
+        color: rgb(2, 133, 220);
+    }
+}

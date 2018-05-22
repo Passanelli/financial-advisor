@@ -1,0 +1,11 @@
+$contentWidth: 100%;
+
+$textColor: #333333;
+$backgroundColor: #ffffff;
+
+@mixin border-radius($top, $right, $bottom, $left) {
+    -webkit-border-radius: $top $right $bottom $left;
+    -moz-border-radius: $top $right $bottom $left;
+    -ms-border-radius: $top $right $bottom $left;
+    border-radius: $top $right $bottom $left;
+}

@@ -1,0 +1,72 @@
+{
+    "1": [
+        { "id": "bonds", "key": "Bonds", "value": 80 },
+        { "id": "largeCap", "key": "Large Cap", "value": 20 },
+        { "id": "midCap", "key": "Mid Cap", "value": 0},
+        { "id": "foreign", "key": "Foreign", "value": 0},
+        { "id": "smallCap", "key": "Small Cap", "value": 0}
+    ],
+    "2": [
+        { "id": "bonds", "key": "Bonds", "value": 70},
+        { "id": "largeCap", "key": "Large Cap", "value": 15},
+        { "id": "midCap", "key": "Mid Cap", "value": 15},
+        { "id": "foreign", "key": "Foreign", "value": 0},
+        { "id": "smallCap", "key": "Small Cap", "value": 0}
+    ],
+    "3": [
+        { "id": "bonds", "key": "Bonds", "value": 60},
+        { "id": "largeCap", "key": "Large Cap", "value": 15},
+        { "id": "midCap", "key": "Mid Cap", "value": 15},
+        { "id": "foreign", "key": "Foreign", "value": 10},
+        { "id": "smallCap", "key": "Small Cap", "value": 0}
+    ],
+    "4": [
+        { "id": "bonds", "key": "Bonds", "value": 50},
+        { "id": "largeCap", "key": "Large Cap", "value": 20},
+        { "id": "midCap", "key": "Mid Cap", "value": 20},
+        { "id": "foreign", "key": "Foreign", "value": 10},
+        { "id": "smallCap", "key": "Small Cap", "value": 0}
+    ],
+    "5": [
+        { "id": "bonds", "key": "Bonds", "value": 40},
+        { "id": "largeCap", "key": "Large Cap", "value": 20},
+        { "id": "midCap", "key": "Mid Cap", "value": 20},
+        { "id": "foreign", "key": "Foreign", "value": 20},
+        { "id": "smallCap", "key": "Small Cap", "value": 0}
+    ],
+    "6": [
+        { "id": "bonds", "key": "Bonds", "value": 35},
+        { "id": "largeCap", "key": "Large Cap", "value": 25},
+        { "id": "midCap", "key": "Mid Cap", "value": 5},
+        { "id": "foreign", "key": "Foreign", "value": 30},
+        { "id": "smallCap", "key": "Small Cap", "value": 5}
+    ],
+    "7": [
+        { "id": "bonds", "key": "Bonds", "value": 20},
+        { "id": "largeCap", "key": "Large Cap", "value": 25},
+        { "id": "midCap", "key": "Mid Cap", "value": 25},
+        { "id": "foreign", "key": "Foreign", "value": 25},
+        { "id": "smallCap", "key": "Small Cap", "value": 5}
+    ],
+    "8": [
+        { "id": "bonds", "key": "Bonds", "value": 10},
+        { "id": "largeCap", "key": "Large Cap", "value": 20},
+        { "id": "midCap", "key": "Mid Cap", "value": 40},
+        { "id": "foreign", "key": "Foreign", "value": 20},
+        { "id": "smallCap", "key": "Small Cap", "value": 10}
+    ],
+    "9": [
+        { "id": "bonds", "key": "Bonds", "value": 5},
+        { "id": "largeCap", "key": "Large Cap", "value": 15},
+        { "id": "midCap", "key": "Mid Cap", "value": 40},
+        { "id": "foreign", "key": "Foreign", "value": 25},
+        { "id": "smallCap", "key": "Small Cap", "value": 15}
+    ],
+    "10": [
+        { "id": "bonds", "key": "Bonds", "value": 0},
+        { "id": "largeCap", "key": "Large Cap", "value": 5},
+        { "id": "midCap", "key": "Mid Cap", "value": 25},
+        { "id": "foreign", "key": "Foreign", "value": 30},
+        { "id": "smallCap", "key": "Small Cap", "value": 40}
+    ]
+}
