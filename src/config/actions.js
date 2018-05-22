@@ -1,0 +1,1 @@
+export const SELECT_RISK_LEVEL = 'SELECT_RISK_LEVEL';

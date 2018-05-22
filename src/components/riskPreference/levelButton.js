@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux'; 
 import './risk.css';
+import {SELECT_RISK_LEVEL} from '../../config/actions';
 
 class LevelButton extends Component {
 
     selectRiskLevel (value) {     
-        this.props.dispatch({type: 'SELECT_RISK_LEVEL', selectedLevel: this.props.label})
+        this.props.dispatch({type: SELECT_RISK_LEVEL, selectedLevel: this.props.label})
     }
 
     render() {
