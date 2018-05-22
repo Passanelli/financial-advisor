@@ -23,6 +23,7 @@ body {
   cursor: pointer;
   text-align: center;
   text-decoration: none;
+  min-height: 18px;
 
   &.active, &:visited, &:hover {
     background: $levelButtonHover;
