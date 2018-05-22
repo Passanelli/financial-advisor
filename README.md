@@ -1,12 +1,30 @@
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
-## Install dependencies
+## Demo video
 
-Install all dependencies first running:
+Demo video is on demo folder at root level.
 
-### `npm install`
+## Dependencies
 
-On root folder.<br>
+Make sure you have the following items installed
+
+* node 8.6.1 or greater
+* npm 4.6.1
+
+## Installation Guide
+
+1. Clone [this](https://github.com/Passanelli/financial-advisor) repository
+
+  `git clone https://github.com/Passanelli/financial-advisor`
+
+2. Navigate to the project
+
+  `cd financial-advisor`
+
+3. Install Dependencies with `npm` using the console.
+
+  `npm install`
+
 
 ## Available Scripts
 
@@ -31,3 +49,8 @@ It correctly bundles React in production mode and optimizes the build for the be
 
 The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
+
+## Technologies used
+
+  * Javascript (ES6) with ReactJS Framework
+  * Redux
